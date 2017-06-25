@@ -1,0 +1,19 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Back-end Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragan1810/timestamp.git"
+  },
+  "author": "Dragan Novakovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragan1810/timestamp/issues"
+  },
+  "homepage": "https://github.com/Dragan1810/timestamp#readme"
+}
