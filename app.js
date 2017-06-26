@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const Logika = require('./Controllers/Logika');
 
 const app = express();
 
@@ -12,12 +13,10 @@ app.set('view engine','pug');
 
 
 app.get('/', (req,res,next) => {
-    res.send(`Helllouuuuuu`);
+    res.render('index');
     next();
 });
-app.get('/:date', (req,res) => {
-    res.send(`Helllouuuuuu`)
-});
+app.get('/:date',Logika.tajm );
 
 
 
